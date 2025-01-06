@@ -24,9 +24,9 @@ import lombok.EqualsAndHashCode;
 @Document(collection = "resumen")
 public class Resumen {
     @Id
-    private String id;
-    private Date fecha;
-    private Integer totalPersonas;
-    private List<Persona> personas;
-
+    private String id;  // Id del resumen
+    private Date fecha; // Fecha del resumen, se genera automaticamente en Spring Boot
+    private Integer total_personas; // Total de personas en el resumen
+    private List<Persona> personas; // Lista de personas en el resumen
+    private String id_pantalla; // Id de la pantalla a la que pertenece el resumen
 }

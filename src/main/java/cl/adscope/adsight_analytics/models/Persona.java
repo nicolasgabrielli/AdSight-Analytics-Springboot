@@ -15,9 +15,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode
 public class Persona {
     private String id;
-    private String edad_promedio;
+    private float edad_promedio;
     private String genero_predominante;
     private String raza_predominante;
     private String emocion_predominante;
-    private String tiempo_en_pantalla;
+    private float tiempo_en_pantalla;
 }

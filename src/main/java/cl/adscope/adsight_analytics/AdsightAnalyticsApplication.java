@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AdsightAnalyticsApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(AdsightAnalyticsApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(AdsightAnalyticsApplication.class, args);
+    }
 }
